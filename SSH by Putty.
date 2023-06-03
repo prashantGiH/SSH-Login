@@ -1,0 +1,19 @@
+Steps:-  SSH Login Access with Putty.
+
+         1) Download putty.exe and Install it.
+         2) Open Puttygen.
+         3) Load key.
+         4) Show all files.
+         5) Select key name: newkey.pem (This key is store in our PC).
+         6) Open.
+         7) Save private key --> Yes.
+         8) File name: newprivatekey
+         9) Save --> Close.
+        10) Open Putty.
+        11) Host name(IP):- Public IP Paste of our instances EC2.
+        12) Category : Connection --> Open SSH --> Open Auth --> Credentials.
+        13) Put Private key file for Authentication --> Browse.
+        14) Select Private key --> Open --> Open.
+        15) Login as: ec2-user.
+        16) Enter.
+        17) SSH Remotely Access with Putty.
