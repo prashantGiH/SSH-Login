@@ -1,0 +1,13 @@
+Steps :- Using Powershell and Command Prompt.
+        
+         1) Open Powershell.
+Command:- 
+         ssh
+         ssh -i C:\Users\prash\Downloads\newkey.pem  ec2-user@13.234.114.166 
+ 
+         {(ssh -i <path of .pem file>  ec2-user@Public IP of Instances)}
+        
+         2) YES.
+         3) curl [Public IP of Instances]
+
+         Output Show Hey my Name is Prashant Pustode...
