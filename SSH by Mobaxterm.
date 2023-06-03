@@ -1,0 +1,12 @@
+Steps:-   SSH Login Access by using Mobaxterm.
+         1) Launch Instances and Create one Instance By Using default setting in EC2.
+         2) Copy Public IP of that Instances.
+         3) Open Mobaxterm app.
+         4) Session --> SSH
+         5) Remote Host:- Paste Public IP.
+         6) Specify username:- ec2-user
+         7) Advanced SSH Setting.
+         8) Select Private key in Our PC Files (newprivate).
+         9) OK
+        10) Open Black screen of Mobaxterm & Login as: ec2-user username.
+        11) After that do aws configure process in our CLI mode & Access with SSH.
