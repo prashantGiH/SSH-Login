@@ -1,0 +1,17 @@
+Steps:-   SSH Login Access by using Github.
+       1) Open Terminal in windows.
+       2) Commands:- ssh-keygen -t rsa  --> Enter  --> Enter
+       3)            Enter Passphrase:- 12345
+       4)            Re-enter Passphrase:- 12345
+       5)            cd ~/.ssh
+       6)            ls
+       7)            cat id_rsa.pub
+       8) Copy that Entire Public key & It will added into our Github Profile.
+       9) Open Github & Sign in to Account.
+      10) Open Setting Page.
+      11) Click to Open SSH & GPG keys.
+      12) SSH key :- New SSH key
+      13) Name:- keyforgit
+      14) Key:- Paste that entire Public Key Here.
+      15) Add SSH Key.
+      16) After that we can able to do Push and Pull Operation in our Github Repository.
