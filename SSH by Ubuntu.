@@ -1,0 +1,16 @@
+Steps:-   SSH Login Access by Using Ubuntu.
+
+        1) Launch Instances in EC2.
+        2) Name of instances:- sshubuntu
+        3) AMI:- Ubuntu select.
+        4) After that By default setting.
+        5) Launch Instances --> Copy It's Public IP.
+	      6) Open Putty.
+        7) Host name(IP):- Public IP Paste of our instances EC2.
+        8) Category : Connection --> Open SSH --> Open Auth --> Credentials.
+        9) Put Private key file for Authentication --> Browse It (newprivate).
+       10) Select Private key --> Open --> Open.
+       11) Login as: ubuntu.
+       12) Enter. 
+    	 13) SSH Login through our Ubuntu Software in Putty app.
+	     14) After that do aws configure Process.
