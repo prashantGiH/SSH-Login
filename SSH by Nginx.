@@ -1,0 +1,25 @@
+Steps:- Nginx is for Web Server Hosting.
+        
+       1) Instances in EC2 Copy there Public IP.
+       2) Open Putty
+       3) Host name(IP):- Public IP Paste of our Instances
+       4) Category : Connection --> Open SSH --> Open Auth --> Credentials.
+       5) Put Private key file for Authentication --> Browse it (newprivate).
+       6) Select Private key --> Open --> Open. 
+       7) Login As :- ec2-user --> Enter
+Commands:-
+           yum install -y
+           yum install nginx -y
+           nginx -v
+           systemctl start nginx
+           systemctl enable nginx
+           systemctl status nginx
+           curl [Public IP Paste]
+           cat > /usr/share/nginx/html/index.html
+
+Output:- Hey My name is Prashant Pustode... 
+         (Type this output & show it on web in new tab after paste public IP on new tab)
+         
+        8) cat /usr/share/nginx/html/index.html
+
+         Show output of CLI Mode of nginx & Putty on Web server.   
